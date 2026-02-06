@@ -1,0 +1,9 @@
+name: Welcome Action
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Message
+        run: echo "The Action has successfully started for Ashenafi!"
